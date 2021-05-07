@@ -1,0 +1,151 @@
+*.root
+{
+ color: 50px black;
+ font-weight: 1000;
+ height: 20%;
+}
+.red-back
+{
+    /*border: solid black;*/
+    height: 30vmax;
+    color: 3em solid black;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    box-shadow: 2px 3px 15px 0 #434444;
+    text-align: center;
+}
+.search
+{
+    cursor: pointer;
+    box-shadow: 0 3px 6px 0 #434444;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+.link:hover
+{
+    cursor: pointer;
+    text-shadow: 2px 1px 2px lightgray;
+}
+
+.black-back
+{
+    /*border: solid black;*/
+    width: 20vmin;
+    height: 30vmax;
+    color: 3em solid black;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 6em;
+    box-shadow: 2px 3px 15px 0 #434444;
+    text-align: center;
+}
+.search[type=text]
+{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom: 0.2em;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: lightgray;
+
+}
+.nav
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 2.5em;
+    /*-color: lightgray;*/
+}
+.dotted
+{
+    border: lightgray;
+    
+}
+.link
+{
+    color: lightseagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.9em;   
+    padding-left: 3em;
+    text-align: center;
+
+}
+.info
+{
+    padding-left: 3em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+.a
+{
+    color: lightseagreen;
+    text-align: right;
+}
+
+.news
+{
+    color: darkred;
+}
+.right
+{
+    float: left;
+    width: 13.33%;
+    height: 50em;
+    /*border: dashed black;*/
+    margin-left: 1em;
+    box-shadow: 2px 3px 15px 0 #434444;
+}
+.left
+{
+    float: right;
+    width: 13.33%;
+    height: 50em;
+    box-shadow: 2px 3px 15px 0 #434444;
+    /*border: dashed black;*/
+}
+.all
+{
+    margin-left: 3em;
+}
+.arti
+{
+    text-align: center;
+    /*border: dashed black;*/
+    height: 20vmax;
+    margin: 0em 0em 2em 0em;
+    box-shadow: 2px 3px 15px 0 #434444;
+    position: relative;
+    width: 100%;
+    }
+.image 
+{
+        display: block;
+        width:60em;
+        height: 16.5em;
+        
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color:blanchedalmond;
+    overflow: hidden;
+    height: 100%;
+    transition: .5s ease;
+  }
+  .arti:hover .overlay {
+    width: 99%;
+    left: 0;
+  }
+      
+.footer
+{
+    margin-bottom: 0.5em;
+    text-align: center;
+    /*border: dashed black;*/
+    box-shadow: 2px 3px 15px 0 #434444;
+}
